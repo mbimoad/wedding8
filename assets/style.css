@@ -1,0 +1,288 @@
+:root {
+	--color1:#3d1e0c; 
+	--color2:#6d3c2b;
+	--color3:#362b0f;
+	--color4:#fdf4e2;
+	--color5:#a68677; 
+	--color6:#eeeeee;
+	--color7:#302e39; 
+}
+
+@font-face {
+	font-family:'n5';
+	src: url('../plugin/font/normal/n5.ttf') format('truetype');
+}
+
+@font-face {
+	font-family:'s6';
+	src: url('../plugin/font/sambung/s6.ttf') format('truetype');
+}
+@font-face {
+	font-family:'s7';
+	src: url('../plugin/font/sambung/s7.ttf') format('truetype');
+}
+ .font_s1 {
+	font-family: s7;
+} .font_s6 {
+    font-family: s6;
+}
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} body {
+    font-family: n5;
+} .logo {
+	width:100px;
+} .times {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+} .waktu {
+    font-size: 2rem;
+} .time {
+	background: var(--color1);
+	width: 70px;
+	line-height: 20px;
+	padding: 10px 0;
+	border-radius: 10px;
+	color:#ddd;	
+} .dashboard hr {
+	width: 40px;
+	margin: 10px auto;
+	height: 1px;
+	background-color:var(--color1);
+} body {
+	background-image: url('pattern1.webp');
+	background-size: 100%;
+} .dashboard {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} .dashboard p {
+	font-size: 2rem;
+	font-style: italic;
+} .quran-box {
+	background-color: var(--color1);
+	color:var(--color4);
+	padding: 10px;
+	border-radius: 10px;
+} .frame img {
+	width: 190px;
+} .paslon-box {
+	width: 250px;
+	margin: auto;
+	position: relative;
+} .img {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 50%;
+	margin: auto;
+	left: 53px;
+	top:15px;
+	z-index: -1;
+} .paslon h3 {
+	color:var(--color1);
+} .male-img {
+	background-image: url('15.webp');
+	background-color:var(--color5);
+	background-position:-48px 0;
+	background-size:450px;
+	background-repeat: no-repeat;
+} .female-img {
+	background-image: url('15.webp');
+	background-color:var(--color5);
+	background-position:-158px -20px;
+	background-size:450px;
+	background-repeat: no-repeat;
+} .fa-instagram {
+	background-color: var(--color3);
+	color:var(--color4);
+	padding: 5px;
+	border-radius: 50%;
+} .bismillah {
+	width: 300px;
+} .love-story hr {
+	width: 20px;
+	background-color: var(--color1);
+	border-radius: 50px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	display: none;
+} .note {
+	background-color:var(--color3);
+	color:var(--color4);
+	padding: 20px;
+	border-radius: 10px;
+} .note::before {
+	/* content: '❤️'; */
+	width: 22px;
+	height: 22px;
+	display: block;
+	position: absolute;
+	left: -34px;
+	text-align: center;
+	background-color: var(--color1);
+	border-radius: 50px;
+} .notes {
+	gap: 30px;
+	position: relative;
+	display: flex;
+} 
+.amplop .card,
+.acara .card {
+	background-image: url('pattern1.webp');
+	background-size: cover;
+	box-shadow: 0px 0px 5px var(--color5);
+} .map {
+	border: 3px double var(--color3);
+	width: 100%;
+} .time-box {
+	border-top: 3px solid var(--color3);
+	border-bottom: 3px solid var(--color3);
+	padding-top: 10px;
+	padding-bottom: 10px;
+} .bank {
+	width: 40%;
+} .btn-primary {
+	background: var(--color2);
+	border: unset;
+} .mybox .protocol {
+	background-color:var(--color1);
+	padding: 5px;
+	color:white;
+} .ucapan .card {
+	background-color: var(--color5);
+	color:var(--color6);
+} .btn-primary:hover {
+	background-color:var(--color3);
+} .open-img {
+	width: 250px;
+} .absensi {
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0 5px;
+    color:var(--color7);
+    background-color: var(--color4);
+} .undangan {
+    font-size: 1.5rem;
+    color:var(--color5);
+}
+.btn-primary:focus,
+.btn-primary:active {
+	background-color:var(--color7);
+} footer {
+	background-color:var(--color7);
+	height: 200px;
+} .nav {
+    display: none; 
+    box-shadow: 0 0 5px #ddd;
+    position: fixed;
+    bottom: 20px;
+    border-radius: 150px;
+    left: 0;
+    right: 0;
+    z-index: 999999999999999999999999999999999;
+    background-color: var(--color1);
+    width: 95%;
+    padding: 10px 0;
+	margin: auto;
+	box-shadow: inset 2px 2px 5px var(--color2),
+				inset 4px 4px 10px var(--color2);
+} .nav a {
+	color:white;
+} .invite {
+	background-color: rgba(0, 0, 0, 0.787);
+	color:var(--color4);
+    transition: all 500ms ease 0s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999999999999999999999999999999999999999999;
+} .invite button {
+    border: unset;
+    background:var(--color2);
+    transition: all 200ms ease 0s;
+} .invite button:hover {
+    background:var(--color3);
+} .buka {
+    transform: translate(0, -100%);
+    opacity: 0;
+} .hilang {
+	opacity: 0;
+	transform: translate(0, 30px);
+	transition: all 500ms ease 0s;
+} .muncul {
+	opacity: 1;
+	transform: translate(0, 0);
+} .myicon {
+    display: none;
+    color:white;
+    text-align: center;
+    width: 35px;
+    height: 34px;
+    padding: 5px;
+    border-radius: 50%;
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    bottom: 50%;
+    z-index: 9999999999999999999999999999999999;
+    background: var(--color3);
+} .comments {
+    padding: 10px;
+    overflow: auto;
+    background-color:var(--background1);
+    overflow: auto;   
+    height: 250px;
+}
+
+@media screen and (max-width: 785px) {
+	.quran {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 683px) {
+	.mybox .protocol {
+		background-color:unset;
+		padding: unset;
+		color:white;
+	}	.mybox .col-md-4 {
+		margin-top: 10px;
+		background-color: var(--color1);
+		color:var(--color4);
+		padding-top: 10px;
+		border-radius: 10px;
+	} .health-protocol .row:nth-child(2),
+	  .health-protocol .row:nth-child(3) {
+		padding:10px;
+	} .comments .comment-box {
+		margin-left: 20px;
+	}
+
+	.love-story hr {
+		display: block;
+	}.note::before {
+		content: '❤️';
+	} .notes {
+		gap: 30px;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+	} 
+} 
+
+@media screen and (max-width: 460px) {
+	.quran {
+		margin-top: unset;
+	}
+}
